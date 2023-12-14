@@ -1,0 +1,41 @@
+* {
+    font-family: monospace;
+    padding: 10px;
+    margin: 20px;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+.wrapper > .content {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper > .header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+}
+.content {
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
